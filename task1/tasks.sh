@@ -1,5 +1,7 @@
-# cleanup
+# Fail on error or unbounded variable
+set -euo pipefail
 
+# cleanup
 rm -rf obj_dir
 rm -f sinegen.vcd
 
